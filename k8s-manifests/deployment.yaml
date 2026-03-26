@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: devops-app:v1
+          image: arnn019/devops-app:v1
           imagePullPolicy: Never
           ports:
             - containerPort: 80
